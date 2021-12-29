@@ -43,7 +43,7 @@ class MyObserver extends NavigatorObserver {
 
   @override
   void didPop(Route route, Route? previousRoute) {
-    currentRoute = route;
+    currentRoute = previousRoute;
   }
 
   @override
